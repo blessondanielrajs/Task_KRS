@@ -1,0 +1,42 @@
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+
+  max-width: 100%; /* Adjust max-width as needed */
+}
+
+.feature {
+  display: flex;
+  height: 50vh;
+}
+
+.left {
+ 
+  text-align: left;
+  padding: 40px;
+  color: white;
+  padding-top: 20%;
+}
+
+.right {
+
+  text-align: left;
+  padding: 40px;
+  color: white;
+}
+
+.left img {
+  max-width: 50%;
+}
+
+.right img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff; /* Change color as needed */
+  margin-bottom: 10px;
+}
